@@ -1,13 +1,13 @@
 package org.obm;
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 
 public class BeanSet {
 
-	private final LinkedHashSet<MyBean> beans;
+	private final HashSet<MyBean> beans;
 	
 	public BeanSet() {
-		beans = new LinkedHashSet<MyBean>();
+		beans = new HashSet<MyBean>();
 	}
 	
 	public void add(MyBean bean) {
